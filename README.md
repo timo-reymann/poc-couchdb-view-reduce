@@ -17,3 +17,8 @@ Proof of Concept utilizing reduce in a view
 - grouping must be set for view queries, otherwise the key is null and it sums up all keys
 - reduce is not used in Fauxton, but by default in API calls
 
+## Execution
+
+- Create couchdb container with docker-compose: `docker-compose up`
+- Execute scripts in [scripts](./scripts), in the order they are named
+
